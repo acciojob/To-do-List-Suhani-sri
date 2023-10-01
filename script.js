@@ -1,5 +1,5 @@
 let clickBtn = document.getElementById("addTodoBtn");
-clickBtn.addEventListner("click",addItem);
+clickBtn.addEventListener("click",addItem);
 function addItem(){
 	let listItem = document.createElement('li');
 	let item = document.getElementById("newTodoInput");
